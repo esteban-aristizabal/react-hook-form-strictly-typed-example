@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+* {
+  margin: 0;
+}
+
+html {
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
+
+#main:after {
+  content: "";
+  display: block;
+}
+
+html,
+body {
+  height: 92%;
+  font-family: "Helvetica", "Arial", "FreeSans", "Verdana", "Tahoma",
+    "Lucida Sans", "Lucida Sans Unicode", "Luxi Sans", sans-serif;
+}
+.page-main {
+  min-height: 100%;
+  box-sizing: border-box;
+}
+
+.grecaptcha-badge {
+  bottom: 10% !important;
+}
+
+.cajita .MuiInputBase-root {
+  height: 32px !important;
+}
